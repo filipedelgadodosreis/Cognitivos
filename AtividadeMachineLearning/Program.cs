@@ -2,7 +2,7 @@
 using System.Globalization;
 using Azure.AI.TextAnalytics;
 
-namespace AtividadeMachineLearning
+namespace AnaliseTexto
 {
     class Program
     {
@@ -20,7 +20,6 @@ namespace AtividadeMachineLearning
             EntityLinkingExample(client);
             KeyPhraseExtractionExample(client);
 
-            Console.Write("Press any key to exit.");
             Console.ReadKey();
         }
 
